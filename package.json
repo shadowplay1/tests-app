@@ -1,0 +1,42 @@
+{
+  "name": "api-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prep": "npx husky install",
+    "lint": "eslint src --ext .js,.jsx .ts,.tsx .",
+    "lint:fix": "eslint src --fix --ext .js,.jsx .ts,.tsx ."
+  },
+  "browsers": [
+    "last 4 versions",
+    "ie >= 9",
+    "iOS >= 8",
+    "Safari >= 8"
+  ],
+  "dependencies": {
+    "@types/nodemailer": "^6.4.7",
+    "@types/react-dom": "18.0.11",
+    "bcryptjs": "^2.4.3",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "5.13",
+    "next": "^12.1.5",
+    "nodemailer": "^6.9.1",
+    "nprogress": "^0.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^18.15.11",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^18.0.32",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "typescript": "^5.0.3"
+  }
+}

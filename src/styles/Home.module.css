@@ -1,0 +1,111 @@
+.upper {
+    background-color: var(--uneven-sections-background-color);
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.upper-text {
+    margin: 0 0 40px;
+}
+
+.upper h1 {
+    font-size: 3.5rem;
+    margin: 0 0 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.upper p {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 0 20px;
+}
+
+.start-button {
+    background-color: var(--continue-button-color);
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.start-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44, 48, 50);
+}
+
+.feature {
+    padding: 50px 20px 50px 20px;
+    /* up, right, down, left */
+}
+
+.feature i {
+    color: white;
+    margin: 0 0 20px;
+}
+
+.feature h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+.feature p {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.bottom {
+    background-color: var(--uneven-sections-background-color);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.bottom h2 {
+    font-size: 2.5rem;
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+@media only screen and (min-height: 1000px) {
+    .upper {
+        padding: 170px;
+    }
+
+    .feature {
+        padding: 70px 20px 70px 20px;
+    }
+
+    .bottom {
+        padding: 130px;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    h1.title {
+        font-size: 45px;
+    }
+
+    .features {
+        display: block;
+    }
+
+    .feature {
+        padding: 30px 20px 30px 20px;
+    }
+}
